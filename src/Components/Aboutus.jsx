@@ -24,11 +24,8 @@ const Aboutus = () => {
   }
   const mycard = mycardinfo.map((mycard) => (
     <div className={`${index === 1 ? "" : ""} col-lg-4 col-sm-6 mt-3`}>
-      <div className="about-border mt_4 overflow-hidden">
-        <div
-          data-aos="zoom-in"
-          className="about_card position-relative z-1 w-100"
-        >
+      <div className="card_sh ">
+        <div data-aos="zoom-in" className="about_card">
           <p className="fs-32 lh_38 fw-bold text-white text-center text-sm-start">
             {mycard.name}
           </p>
@@ -41,15 +38,12 @@ const Aboutus = () => {
     </div>
   ));
   return (
-    <div
-      id="about"
-      className="bg-black pb-75 mt_2 position-relative overflow-hidden"
-    >
+    <div id="about" className="bg-black pb-75 mt_2 position-relative ">
       <p className="fs-187 lh_224 text-white position-absolute  z-3 op_6 animated-text fw-bold">
         About Us
       </p>
-      <div className="container pt-5 mt-5">
-        <div className="row align-items-center pt-md-5 mt-md-5 justify-content-between pb-75">
+      <div className="container pt-5 ">
+        <div className="row align-items-center pt-5 mt-md-5 justify-content-between  pb-75">
           <div data-aos="zoom-in" className="col-md-4 col-12">
             <div className="d-flex justify-content-center justify-content-sm-start">
               <button className="team_btn mb-3 ">DOERS OVER TALKERS</button>

@@ -26,7 +26,7 @@ const MyRoadmap = () => {
             Milestones and markers
           </h1>
 
-          <div className=" lineorapmap pt-md-5 mt-5 position-relative">
+          <div className=" map_line pt-md-5 mt-5 position-relative">
             <span className="">
               <img
                 className="position-absolute top-0 time_logo"

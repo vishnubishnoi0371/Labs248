@@ -13,6 +13,8 @@ import Sec_One from "./Components/Sec_One";
 import { useEffect } from "react";
 import MyRoadmap from "./Components/MyRoadmap";
 import Backtotop from "./Components/Backtotop";
+import MyFooter from "./Components/MyFooter";
+import Loader from "./Components/Loader";
 
 function App() {
   useEffect(() => {
@@ -21,6 +23,8 @@ function App() {
 
   return (
     <>
+    <div className=" overflow-hidden">
+      <Loader/>
       <HeroSec />
       <Sec_One />
       <Aboutus />
@@ -29,11 +33,15 @@ function App() {
       <Behind />
       <WhatNext />
       <MyRoadmap />
-
       <Form />
+      <MyFooter/>
       <Backtotop />
+      </div>
     </>
   );
 }
 
 export default App;
+
+
+

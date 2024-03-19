@@ -156,7 +156,7 @@ const Behind = () => {
         >
           Behind our expertise
         </h1>
-        <div className="row pt-5">{mycard}</div>
+        <div className="row pt-md-5 pt-2">{mycard}</div>
       </div>
     </div>
   );
