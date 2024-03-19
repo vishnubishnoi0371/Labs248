@@ -7,8 +7,8 @@ import { Starsvg } from "../commonsvg/icon";
 
 const MyRoadmap = () => {
   return (
-    <div>
-      <div id="roadmap" className="bg-black mt_2  overflow-hidden">
+    <div className="bg-black time_bg ">
+      <div id="roadmap" className=" mt_2 position-relative ">
         <p className="fs-187 animated-text lh_224 text-white op_6 fw-bold">
           ROADMAP{" "}
         </p>
@@ -102,6 +102,7 @@ const MyRoadmap = () => {
             </div>
           </div>
         </div>
+        <span className="time_ep_1 d-none d-md-block"></span>
       </div>
     </div>
   );

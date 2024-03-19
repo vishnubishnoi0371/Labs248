@@ -113,7 +113,7 @@ const Behind = () => {
           <div>
             <p
               data-aos="zoom-in"
-              className="fs-20 lh_24 d-flex align-items-center fw-semibold text-white gap-2 ms-sm-2 mt-2 mt-md-0 mb-2 mb-sm-3"
+              className="fs-20 lh_24 d-flex flex-lg-column flex-xl-row align-items-center fw-semibold text-white gap-2 ms-sm-2 mt-2 mt-md-0 mb-2 mb-sm-3"
             >
               {mycard.name}
               <span className="fs-16 lh_19 fw-normal CEO_clr ms-sm-2 ">
@@ -139,7 +139,10 @@ const Behind = () => {
     </div>
   ));
   return (
-    <div id="team" className="bg-black mt_2 pb-75  overflow-hidden">
+    <div
+      id="team"
+      className="bg-black mt_2 pb-75 position-relative  overflow-hidden"
+    >
       <p className="fs-187 animated-text lh_224 text-white op_6 fw-bold">
         Our Team
       </p>
@@ -158,6 +161,8 @@ const Behind = () => {
         </h1>
         <div className="row pt-md-5 pt-2">{mycard}</div>
       </div>
+      <span className="behind_ep_1"></span>
+      <span className="behind_ep_2"></span>
     </div>
   );
 };

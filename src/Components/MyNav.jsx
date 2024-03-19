@@ -22,20 +22,18 @@ const MyNav = () => {
               <ul
                 className={`${
                   nav ? "left_0" : "left-0"
-                } d-flex align-items-center gap-5 gap-lg-4 mb-0 ps-0 my_nav`}
+                } d-flex align-items-center gap-5 gap-sm-3 gap-lg-4 mb-0 ps-0 my_nav`}
               >
                 <li className=" cursor-pointer underline-hover">
-                  {" "}
                   <a
                     href="#about"
                     onClick={setopen}
                     className="text-white position-relative text-decoration-none op_70 fw-normal lh_24"
                   >
-                    About us{" "}
+                    About us
                   </a>
                 </li>
                 <li className=" cursor-pointer underline-hover ">
-                  {" "}
                   <a
                     href="#team"
                     onClick={setopen}
@@ -45,7 +43,6 @@ const MyNav = () => {
                   </a>
                 </li>
                 <li className=" cursor-pointer  underline-hover">
-                  {" "}
                   <a
                     href="#roadmap"
                     onClick={setopen}
@@ -57,9 +54,7 @@ const MyNav = () => {
 
                 <button className="text-white nav-btn">Contact us </button>
               </ul>
-              {/* <button className="Nav_btn d-none d-sm-block Nav_btnPadding">
-                Contact Us
-              </button> */}
+
               <div onClick={setopen}>
                 {nav ? (
                   <div className=" icon d-flex d-md-none flex-column justify-content-between position-relative ">

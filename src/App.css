@@ -295,7 +295,6 @@
   max-width: 498px;
 }
 
-/* sec-1 */
 .sec-1-imgs {
   max-width: 80%;
   opacity: 0.5;
@@ -313,6 +312,12 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.time_bg {
+  background-image: url(./Assets/images/time_bg.png);
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .br_30 {
   border-radius: 30px;
 }
@@ -323,13 +328,6 @@
   -webkit-text-fill-color: transparent;
 }
 
-.content:hover .timeline_card_ep {
-  opacity: 1;
-  transform: scale(1);
-}
-.content::before {
-  transition: all 300ms linear;
-}
 .timeline_card_ep {
   position: absolute;
   bottom: -50px;
@@ -344,6 +342,13 @@
 }
 .mt_4 {
   margin-top: -9px;
+}
+.content:hover .timeline_card_ep {
+  opacity: 1;
+  transform: scale(1);
+}
+.content::before {
+  transition: all 300ms linear;
 }
 .content:hover::before {
   transition: all 0.3s linear;
@@ -403,10 +408,10 @@ input[type="mail"] {
   background: transparent;
 }
 .error {
-  border-color: green;
+  border-color: red;
 }
 .error-message {
-  color: green;
+  color: red;
 }
 
 .success-popup {
@@ -424,7 +429,6 @@ input[type="mail"] {
   );
   border-image-slice: 1;
   padding: 20px;
-
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 999;
@@ -507,6 +511,61 @@ input[type="mail"] {
 }
 
 /* ellepse */
+.time_ep_1 {
+  position: absolute;
+  background-color: #ad1aaf;
+  width: 260px;
+  height: 129px;
+  top: 10%;
+  left: 30px;
+  z-index: 1;
+  opacity: 95%;
+  filter: blur(150px);
+}
+.footer_ep_1 {
+  position: absolute;
+  background-color: #ad1aaf;
+  width: 260px;
+  height: 129px;
+  bottom: -50%;
+  left: -152px;
+  z-index: -1;
+  opacity: 75%;
+  filter: blur(200px);
+}
+.footer_ep_2 {
+  position: absolute;
+  bottom: -32%;
+  right: -16%;
+  background: linear-gradient(151.6deg, #d4145a 1.85%, #fbb03b 98.12%);
+  width: 550px;
+  height: 83px;
+  opacity: 75%;
+  filter: blur(122px);
+  z-index: -1;
+}
+.behind_ep_1 {
+  position: absolute;
+  bottom: 32%;
+  right: -10%;
+  background: linear-gradient(151.6deg, #d4145a 21.85%, #fbb03b 98.12%);
+  width: 550px;
+  height: 83px;
+  opacity: 85%;
+  filter: blur(102px);
+  z-index: 0;
+}
+.behind_ep_2 {
+  position: absolute;
+  bottom: 52%;
+  left: -10%;
+  background: linear-gradient(151.6deg, #d4145a 21.85%, #fbb03b 98.12%);
+  width: 550px;
+  height: 83px;
+  opacity: 85%;
+  filter: blur(102px);
+  z-index: 0;
+}
 .behind_card:hover .ellipesourtem {
   opacity: 1;
 }
@@ -913,28 +972,7 @@ input {
   position: absolute;
   z-index: 3;
 }
-.footer_ep_1 {
-  position: absolute;
-  background-color: #ad1aaf;
-  width: 260px;
-  height: 129px;
-  bottom: -50%;
-  left: -152px;
-  z-index: -1;
-  opacity: 75%;
-  filter: blur(200px);
-}
-.footer_ep_2 {
-  position: absolute;
-  bottom: -32%;
-  right: -16%;
-  background: linear-gradient(151.6deg, #d4145a 1.85%, #fbb03b 98.12%);
-  width: 550px;
-  height: 83px;
-  opacity: 75%;
-  filter: blur(122px);
-  z-index: -1;
-}
+
 @media (min-width: 576px) {
   .about_card {
     padding: 49px 26px;
