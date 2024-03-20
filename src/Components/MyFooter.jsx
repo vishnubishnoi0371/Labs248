@@ -1,5 +1,5 @@
 import React from "react";
-import ft_logo from "../Assets/images/ft_logo.png";
+import ft_logo from "../Assets/images/ft_logo.webp";
 
 import { Face, Insta, Linkdin, Twiter } from "../commonsvg/icon";
 const MyFooter = () => {

@@ -121,7 +121,7 @@
   font-size: var(--fs-187);
 }
 
-/* line0-height */
+/* line-height */
 .lh_20 {
   line-height: 20px;
 }
@@ -177,7 +177,7 @@
 
 /* hero */
 .hero_bg {
-  background-image: url(./Assets/images/hero.png);
+  background-image: url(./Assets/images/hero.webp);
   background-size: cover !important;
   background-repeat: no-repeat;
   background-position: center;
@@ -280,7 +280,7 @@
 
 /* levelup */
 .level_bg {
-  background-image: url(./Assets/images/sec3_bg.png);
+  background-image: url(./Assets/images/sec3_bg.webp);
   background-size: cover !important;
   background-repeat: no-repeat;
   background-position: center;
@@ -301,19 +301,19 @@
 }
 /* whatnext bg */
 .what_bg {
-  background-image: url(./Assets/images/whatnext_bg.png);
+  background-image: url(./Assets/images/whatnext_bg.webp);
   background-size: cover !important;
   background-repeat: no-repeat;
   background-position: center;
 }
 .form_bg {
-  background-image: url(./Assets/images/form_bg.png);
+  background-image: url(./Assets/images/form_bg.webp);
   background-size: cover !important;
   background-repeat: no-repeat;
   background-position: center;
 }
 .time_bg {
-  background-image: url(./Assets/images/time_bg.png);
+  background-image: url(./Assets/images/time_bg.webp);
   background-size: cover !important;
   background-repeat: no-repeat;
   background-position: center;

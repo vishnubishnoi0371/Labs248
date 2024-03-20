@@ -1,8 +1,8 @@
 import React from "react";
-import Next from "../Assets/images/next_move.png";
-import rich from "../Assets/images/rich-img.png";
-import richep from "../Assets/images/rich-ep-1.png";
-import moveep from "../Assets/images/move-ep-1.png";
+import Next from "../Assets/images/next_move.webp";
+import rich from "../Assets/images/rich-img.webp";
+import richep from "../Assets/images/rich-ep-1.webp";
+import moveep from "../Assets/images/move-ep-1.webp";
 import { Pause } from "../commonsvg/icon";
 
 const NextMove = () => {

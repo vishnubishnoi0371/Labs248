@@ -195,7 +195,7 @@ const Form = () => {
                 </div>
                 <button
                   type="submit"
-                  className="nav-btn fs-16 fw-medium lh_18 text-white"
+                  className="nav-btn fw-bold fs-16 fw-medium lh_18 text-white"
                 >
                   Subscribe
                 </button>
@@ -205,7 +205,7 @@ const Form = () => {
                   <p className="fw-bold text-white fs-24">
                     Form submitted successfully!
                   </p>
-                  <button className="nav-btn" onClick={handlePopupClose}>
+                  <button className="nav-btn fw-bold" onClick={handlePopupClose}>
                     Close
                   </button>
                 </div>

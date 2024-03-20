@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import behind1 from "../Assets/images/behind-1.png";
-import behind2 from "../Assets/images/behind-2.png";
-import behind3 from "../Assets/images/behind-3.png";
-import behind4 from "../Assets/images/behind-4.png";
-import behind5 from "../Assets/images/behind-5.png";
-import behind6 from "../Assets/images/behind-6.png";
-import behind7 from "../Assets/images/behind-7.png";
-import behind8 from "../Assets/images/behind-8.png";
+import behind1 from "../Assets/images/behind-1.webp";
+import behind2 from "../Assets/images/behind-2.webp";
+import behind3 from "../Assets/images/behind-3.webp";
+import behind4 from "../Assets/images/behind-4.webp";
+import behind5 from "../Assets/images/behind-5.webp";
+import behind6 from "../Assets/images/behind-6.webp";
+import behind7 from "../Assets/images/behind-7.webp";
+import behind8 from "../Assets/images/behind-8.webp";
 
 // import AOS from "aos";
 // import "aos/dist/aos.css";
@@ -151,7 +151,7 @@ const Behind = () => {
           data-aos="zoom-in"
           className="d-flex align-items-center justify-content-center"
         >
-          <button className="team_btn ">OUR TEAM</button>
+          <button className="team_btn fw-bold">OUR TEAM</button>
         </div>
         <h1
           data-aos="zoom-in"

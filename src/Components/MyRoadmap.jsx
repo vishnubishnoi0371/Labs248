@@ -1,8 +1,8 @@
 import React from "react";
-import timelogo from "../Assets/images/timeline_logo.png";
-import india from "../Assets/images/india.png";
-import australia from "../Assets/images/australia.png";
-import america from "../Assets/images/america.png";
+import timelogo from "../Assets/images/timeline_logo.webp";
+import india from "../Assets/images/india.webp";
+import australia from "../Assets/images/australia.webp";
+import america from "../Assets/images/america.webp";
 import { Starsvg } from "../commonsvg/icon";
 
 const MyRoadmap = () => {
@@ -17,7 +17,7 @@ const MyRoadmap = () => {
             data-aos="zoom-in"
             className="d-flex align-items-center justify-content-center"
           >
-            <button className="team_btn ">ROAD MAP</button>
+            <button className="team_btn fw-bold">ROAD MAP</button>
           </div>
           <h1
             data-aos="zoom-in"

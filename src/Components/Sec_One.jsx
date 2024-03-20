@@ -2,10 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import slide1 from "../Assets/images/slide1.png";
-import slide2 from "../Assets/images/slide2.png";
-import slide3 from "../Assets/images/slide3.png";
-import slide4 from "../Assets/images/slide4.png";
+import slide1 from "../Assets/images/slide1.webp";
+import slide2 from "../Assets/images/slide2.webp";
+import slide3 from "../Assets/images/slide3.webp";
+import slide4 from "../Assets/images/slide4.webp";
 
 const Sec_One = () => {
   const settings = {

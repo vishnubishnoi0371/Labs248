@@ -1,5 +1,5 @@
 import React from "react";
-import moveep from "../Assets/images/move-ep-1.png";
+import moveep from "../Assets/images/move-ep-1.webp";
 
 const Levelup = () => {
   return (
@@ -10,7 +10,7 @@ const Levelup = () => {
             <p className="fs-52 lh_67 fw-bold text-white mw_498 mb-4">
               Level up your gaming experience
             </p>
-            <button className="text-white level-btn"> Play Unvilled</button>
+            <button className="text-white level-btn fw-btn"> Play Unvilled</button>
           </div>
         </div>
       </div>

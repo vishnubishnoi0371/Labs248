@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../Assets/images/page_logo.png";
+import Logo from "../Assets/images/page_logo.webp";
 const MyNav = () => {
   const [nav, setNav] = useState(false);
   function setopen() {
@@ -52,7 +52,7 @@ const MyNav = () => {
                   </a>
                 </li>
 
-                <button className="text-white nav-btn">Contact us </button>
+                <button className="text-white nav-btn fw-bold">Contact us </button>
               </ul>
 
               <div onClick={setopen}>
