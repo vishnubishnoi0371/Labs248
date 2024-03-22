@@ -9,13 +9,13 @@ const MyRoadmap = () => {
   return (
     <div className="bg-black time_bg ">
       <div id="roadmap" className=" mt_2 position-relative ">
-        <p className="fs-187 animated-text lh_224 text-white op_6 fw-bold">
+        <p className="fs-187 map_text position-absolute lh_224 text-white op_6 fw-bold">
           ROADMAP{" "}
         </p>
-        <div className="container pt-2 ">
+        <div className="container pt-5 ">
           <div
             data-aos="zoom-in"
-            className="d-flex align-items-center justify-content-center"
+            className="d-flex align-items-center pt-5 mt-md-5 justify-content-center"
           >
             <button className="team_btn fw-bold">ROAD MAP</button>
           </div>
@@ -31,7 +31,7 @@ const MyRoadmap = () => {
               <img
                 className="position-absolute top-0 time_logo"
                 src={timelogo}
-                alt=""
+                alt="logo"
               />
             </span>
             <div className="container right">

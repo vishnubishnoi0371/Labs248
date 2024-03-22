@@ -143,13 +143,13 @@ const Behind = () => {
       id="team"
       className="bg-black mt_2 pb-75 position-relative  overflow-hidden"
     >
-      <p className="fs-187 animated-text lh_224 text-white op_6 fw-bold">
+      <p className="fs-187 team_text position-absolute z-3 lh_224 text-white op_6 fw-bold">
         Our Team
       </p>
-      <div className="container pt-2 ">
+      <div className="container pt-md-5 mt-5 ">
         <div
           data-aos="zoom-in"
-          className="d-flex align-items-center justify-content-center"
+          className="d-flex align-items-center pt-5  justify-content-center"
         >
           <button className="team_btn fw-bold">OUR TEAM</button>
         </div>

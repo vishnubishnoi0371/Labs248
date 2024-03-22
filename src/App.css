@@ -7,7 +7,7 @@
   --fs-20: 20px;
   --fs-24: 18px;
   --fs-32: 32px;
-  --fs-52: 36px;
+  --fs-52: 30px;
   --fs-72: 52px;
   --fs-157: 157px;
   --fs-187: 67px;
@@ -286,7 +286,7 @@
   background-position: center;
 }
 .level_card {
-  padding: 34px 36px 34px 36px;
+  padding: 24px 26px 24px 26px;
   border-radius: 30px;
   filter: blur(90%);
   backdrop-filter: blur(16px);
@@ -495,21 +495,18 @@ input[type="mail"] {
 .op_1 {
   opacity: 1 !important;
 }
-.animated-text {
-  display: inline-block;
-  animation: slideText 12s linear infinite;
-  top: 0%;
+.about_text {
+  right: -2%;
 }
-
-@keyframes slideText {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(190%);
-  }
+.map_text {
+  right: -13%;
 }
-
+.team_text {
+  left: -8%;
+}
+.min_vh_100 {
+  min-height: 65vh;
+}
 /* ellepse */
 .time_ep_1 {
   position: absolute;
@@ -991,6 +988,12 @@ input {
     --fs-157: 97px;
     --fs-187: 107px;
   }
+  .min_vh_100 {
+    min-height: 100vh;
+  }
+  .level_card {
+    padding: 34px 36px 34px 36px;
+  }
 }
 @media (max-width: 767.7px) {
   label[for="menuIcon"] {
@@ -1036,6 +1039,10 @@ input {
   }
 }
 @media (min-width: 767.8px) {
+  .hero_bg {
+    background-size: 100% 100% !important;
+ 
+  }
   .card_sh:hover {
     transform: translateY(-20%);
   }
@@ -1049,9 +1056,7 @@ input {
     width: 400px;
     height: 200px;
   }
-  .animated-text {
-    top: 5%;
-  }
+
   .pause_btn {
     top: 50%;
     width: 76px;

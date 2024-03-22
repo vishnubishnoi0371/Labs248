@@ -11,7 +11,7 @@ const MyFooter = () => {
           <span className="footer_ep_2"></span>
           <div className="container pt-md-5 mt-5">
             <div className="d-flex position-relative  flex-column justify-content-center align-items-center pt-5 pt-md-1">
-              <img className="ft_logo   mb-4 mb-md-0" src={ft_logo} alt="" />
+              <img className="ft_logo   mb-4 mb-md-0" src={ft_logo} alt="logo" />
               <ul className="gap-4 ps-0  d-flex align-items-center justify-content-center mt-3 mb-4">
                 <li>
                   <a
