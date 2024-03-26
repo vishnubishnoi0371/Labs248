@@ -149,9 +149,9 @@ const Behind = () => {
       <div className="container pt-md-5 mt-5 ">
         <div
           data-aos="zoom-in"
-          className="d-flex align-items-center pt-5  justify-content-center"
+          className="d-flex align-items-center pt-5 position-relative z-3  justify-content-center"
         >
-          <button className="team_btn fw-bold">OUR TEAM</button>
+          <button className="team_btn  fw-bold">OUR TEAM</button>
         </div>
         <h1
           data-aos="zoom-in"

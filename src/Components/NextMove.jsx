@@ -34,7 +34,7 @@ const NextMove = () => {
               </div>
             </div>
             <div data-aos="zoom-in" className="col-xl-8 col-12 ">
-              <p className="fs-16 px-3 text-center text-xl-start fw-normal lh_24 text-white-2 mb-3">
+              <p className="fs-16 px-3 px-md-0 text-center text-xl-start fw-normal lh_24 text-white-2 mb-3">
                 Unveiled is a unique
                 <span className="fw-semibold text-white ms-1">
                   collectible card game{" "}
@@ -42,7 +42,7 @@ const NextMove = () => {
                 in which you gain fervour for your ventures, spending it on
                 mercenaries, spies, automata, and influence.
               </p>
-              <p className="fs-16 px-3 text-center text-xl-start fw-normal lh_24 text-white-2 mb-3">
+              <p className="fs-16 px-3 px-md-0 text-center text-xl-start fw-normal lh_24 text-white-2 mb-3">
                 You play
                 <span className="fw-semibold text-white  ms-1">
                   a rogue merchant trader
