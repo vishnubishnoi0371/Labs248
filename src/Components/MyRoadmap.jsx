@@ -17,7 +17,7 @@ const MyRoadmap = () => {
             data-aos="zoom-in"
             className="d-flex align-items-center pt-5 mt-md-5 justify-content-center"
           >
-            <button className="team_btn fw-bold">ROAD MAP</button>
+            <p className="team_btn fw-bold">ROAD MAP</p>
           </div>
           <h1
             data-aos="zoom-in"
@@ -34,7 +34,7 @@ const MyRoadmap = () => {
                 alt="logo"
               />
             </span>
-            <div className="container right">
+            <div  data-aos="zoom-in" className="container right">
               <div className="content position-relative overflow-hidden ">
                 <h2 className="fs-24 fw-normal CEO_clr lh_28 text-center">
                   Oct 2014
@@ -46,7 +46,7 @@ const MyRoadmap = () => {
                 <span className="timeline_card_ep"></span>
               </div>
             </div>
-            <div className="container  left ">
+            <div  data-aos="zoom-in" className="container  left ">
               <div className="content overflow-hidden">
                 <h2 className="fs-24 fw-normal CEO_clr lh_28 text-center">
                   Nov 2014
@@ -58,7 +58,7 @@ const MyRoadmap = () => {
                 <span className="timeline_card_ep"></span>
               </div>
             </div>
-            <div className="container right">
+            <div  data-aos="zoom-in" className="container right">
               <div className="content overflow-hidden">
                 <h2 className="fs-24 fw-normal CEO_clr lh_28 text-center">
                   Oct 2015
@@ -69,7 +69,7 @@ const MyRoadmap = () => {
                 <span className="timeline_card_ep"></span>
               </div>
             </div>
-            <div className="container left">
+            <div  data-aos="zoom-in" className="container left">
               <div className="content overflow-hidden">
                 <h2 className="fs-24 fw-normal CEO_clr lh_28 text-center">
                   Jan 2020
@@ -85,7 +85,7 @@ const MyRoadmap = () => {
                 <span className="timeline_card_ep"></span>
               </div>
             </div>
-            <div className="container right">
+            <div  data-aos="zoom-in" className="container right">
               <div className="content overflow-hidden">
                 <h2 className="fs-24 fw-normal CEO_clr lh_28 text-center">
                   Jan 2022

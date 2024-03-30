@@ -1,7 +1,5 @@
 import { useRef, useState } from "react";
 
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 const Form = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -181,10 +179,11 @@ const Form = () => {
                     )}
                   </div>
                 </div>
-                <div className="d-flex mb-5 gap-2 align-items-center">
+                <div className="d-flex mb-5 gap-2 ">
                   <input
                     type="checkbox"
                     id="checkbox"
+                    className="chkk"
                     defaultChecked={false}
                     ref={checkboxRef}
                   />
@@ -205,7 +204,10 @@ const Form = () => {
                   <p className="fw-bold text-white fs-24">
                     Form submitted successfully!
                   </p>
-                  <button className="nav-btn fw-bold" onClick={handlePopupClose}>
+                  <button
+                    className="nav-btn fw-bold"
+                    onClick={handlePopupClose}
+                  >
                     Close
                   </button>
                 </div>

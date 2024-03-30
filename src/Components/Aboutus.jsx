@@ -46,9 +46,7 @@ const Aboutus = () => {
         <div className="row align-items-center pt-5 mt-md-5 justify-content-between  pb-75">
           <div data-aos="zoom-in" className="col-md-4 col-12">
             <div className="d-flex justify-content-center justify-content-sm-start">
-              <button className="team_btn fw-bold mb-3 ">
-                DOERS OVER TALKERS
-              </button>
+              <p className="team_btn fw-bold mb-3 ">DOERS OVER TALKERS</p>
             </div>
             <h1 className="fs-52 fw-bold text-center text-sm-start mx-auto mx-md-0 text-white lh_62 mw_310">
               Game First.Always.

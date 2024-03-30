@@ -87,12 +87,6 @@ const mycardinfo = [
 ];
 
 const Behind = () => {
-  // useEffect(() => {
-  //   AOS.init({
-  //     once: true,
-  //     duration: 2000,
-  //   });
-  // }, []);
   const [first, setfirst] = useState();
   function index(first) {
     setfirst(!first);
@@ -151,7 +145,7 @@ const Behind = () => {
           data-aos="zoom-in"
           className="d-flex align-items-center pt-5 position-relative z-3  justify-content-center"
         >
-          <button className="team_btn  fw-bold">OUR TEAM</button>
+          <p className="team_btn  fw-bold">OUR TEAM</p>
         </div>
         <h1
           data-aos="zoom-in"

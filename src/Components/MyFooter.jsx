@@ -11,25 +11,29 @@ const MyFooter = () => {
           <span className="footer_ep_2"></span>
           <div className="container pt-md-5 mt-5">
             <div className="d-flex position-relative  flex-column justify-content-center align-items-center pt-5 pt-md-1">
-              <img className="ft_logo   mb-4 mb-md-0" src={ft_logo} alt="logo" />
+              <img
+                className="ft_logo   mb-4 mb-md-0"
+                src={ft_logo}
+                alt="logo"
+              />
               <ul className="gap-4 ps-0  d-flex align-items-center justify-content-center mt-3 mb-4">
-                <li>
+                <li className="underline-hover">
                   <a
                     href="#home"
-                    className="fs-16 text-decoration-none fw-normal text-white op_70 lh_28"
+                    className="fs-16 mb-0 pb-0 text-decoration-none fw-normal text-white op_70 lh_28"
                   >
                     Home
                   </a>
                 </li>
-                <li>
+                <li className="underline-hover">
                   <a
                     href="#roadmap"
-                    className="fs-16 text-decoration-none fw-normal text-white op_70 lh_28"
+                    className="fs-16 mb-0 pb-0 text-decoration-none fw-normal text-white op_70 lh_28"
                   >
                     Roadmap
                   </a>
                 </li>
-                <li>
+                <li className="underline-hover">
                   <a
                     href="team"
                     className="fs-16 text-decoration-none fw-normal text-white op_70 lh_28"
@@ -37,7 +41,7 @@ const MyFooter = () => {
                     Team
                   </a>
                 </li>
-                <li>
+                <li className="underline-hover">
                   <a
                     href="#about"
                     className="fs-16 text-decoration-none fw-normal text-white op_70 lh_28"

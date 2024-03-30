@@ -18,7 +18,7 @@ const NextMove = () => {
         <div className="container p-0">
           <img
             data-aos="zoom-in"
-            className="w-100 br_30 mb-3 z-3 position-relative "
+            className="w-100 nxt_img br_30 mb-3 z-3 position-relative "
             src={Next}
             alt="elpp"
           />
