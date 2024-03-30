@@ -7,7 +7,7 @@ const Loader = () => {
     const delay = setTimeout(() => {
       setIsLoaded(true);
       document.body.style.overflow = "";
-    }, 40);
+    }, 4000);
 
     return () => clearTimeout(delay);
   }, []);
