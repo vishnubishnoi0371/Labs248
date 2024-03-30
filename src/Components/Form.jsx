@@ -179,7 +179,7 @@ const Form = () => {
                     )}
                   </div>
                 </div>
-                <div className="d-flex mb-5 gap-2 ">
+                <div className="d-flex mb-5 mt_4 gap-2">
                   <input
                     type="checkbox"
                     id="checkbox"
@@ -187,11 +187,15 @@ const Form = () => {
                     defaultChecked={false}
                     ref={checkboxRef}
                   />
-                  <p className="fs-18 fw-normal lh_21 mw_547 mb-0 text-white">
+                  <label
+                    htmlFor="checkbox"
+                    className="checkbox-label mt-2 pt-3 text-white"
+                  >
                     By sending this form I confirm that I have read and accept
-                    the <span className="fw-semibold">Privacy Policy </span>
-                  </p>
+                    the <span className="fw-semibold">Privacy Policy</span>
+                  </label>
                 </div>
+
                 <button
                   type="submit"
                   className="nav-btn fw-bold fs-16 fw-medium lh_18 text-white"

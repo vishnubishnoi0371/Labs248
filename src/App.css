@@ -162,8 +162,9 @@
 .mw_873 {
   max-width: 873px;
 }
-.mw_547 {
-  max-width: 547px;
+label {
+  max-width: 500px;
+  display: inline-block;
 }
 .mw_310 {
   max-width: 310px;
@@ -1045,9 +1046,7 @@ input {
     left: 0;
   }
 }
-.chkk{
-  background: white !important;
-}
+
 @media (min-width: 767.8px) {
   .nxt_img {
     height: 100%;
